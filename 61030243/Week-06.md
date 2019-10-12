@@ -142,8 +142,7 @@ class Program
 
 ``` text
 
-
-
+Error เนื่องจาก การสร้าง method นั้นไม่เป็นไปจามกฎจึงเกิดด error ที่บรรทัดเรียกใช้ method sayHello ใน method main
 
 ```
 

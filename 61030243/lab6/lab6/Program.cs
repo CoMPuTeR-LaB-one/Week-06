@@ -10,6 +10,13 @@ namespace lab6
     {
         static void Main(string[] args)
         {
+            sayHello();
+            Console.ReadLine();
+        }
+
+        static void sayHello()
+        {
+            Console.WriteLine("Hello World.");
         }
     }
 }
