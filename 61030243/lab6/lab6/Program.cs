@@ -10,16 +10,13 @@ namespace lab6
     {
         static void Main(string[] args)
         {
-            int x = 6;
-            int y = 4;
-
-            Console.WriteLine(y *= 2);
-            int z = y = 3;
-
-            Console.WriteLine(z);
-            Console.WriteLine(x |= 1);
-            Console.WriteLine(x += 3);
-            Console.WriteLine(x /= 2);
+            int x = 10, y = 5;
+            Console.WriteLine("x > y : " + (x > y));
+            Console.WriteLine("x < y : " + (x < y));
+            Console.WriteLine("x >= y : " + (x >= y));
+            Console.WriteLine("x <= y : " + (x <= y));
+            Console.WriteLine("x == y : " + (x == y));
+            Console.WriteLine("x != y : " + (x != y));
         }
     }
 }
