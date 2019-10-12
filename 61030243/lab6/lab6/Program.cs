@@ -10,17 +10,9 @@ namespace lab6
     {
         static void Main(string[] args)
         {
-            try
-            {
-                double d = 5e9d;
-                Console.WriteLine(d);
-                int i = checked((int)d);
-                Console.WriteLine(i);
-            }
-            catch (OverflowException e)
-            {
-                Console.WriteLine("than value");
-            }
+            int a = 2;
+            string myString = a.ToString();
+            Console.WriteLine(myString);
         }
     }
 }
