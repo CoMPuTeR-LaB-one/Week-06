@@ -10,7 +10,7 @@ namespace lab6
     {
         static void Main(string[] args)
         {
-            int val = 999;
+            int val;   // do not initial value
             refMethod(out val);
             Console.WriteLine(val);
             Console.ReadLine();
